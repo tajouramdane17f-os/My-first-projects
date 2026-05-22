@@ -1,0 +1,8 @@
+print("Hello dear write your name😊:")
+name = input()
+print("welcome to the world of programming💻 " + name)
+print("what is your age?")
+age = input(int())
+print("you are " + str(age) + " years old")
+deferance = 18 - int (age)
+print ("there is still " + str(deferance) + " year(s) until you are 18") 
