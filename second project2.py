@@ -57,8 +57,10 @@ elif from_currency == "DZD" and to_currency == "EUR" :
 # GBP --> DZD
 elif from_currency == "GBP" and to_currency == "DZD" :
     converted_amount = amount * 310
-    print(str(amount) + " " + from_currency + " is equal to " + str(converted_amount) + " " + to_currency)
+    print(str(amount) + " " + from_currency + " is equal to " + str(converted_amount) + " " + to_currency)  
 # DZD --> GBP
 elif from_currency == "DZD" and to_currency == "GBP" :
     converted_amount = amount / 310
     print(str(amount) + " " + from_currency + " is equal to " + str(converted_amount) + " " + to_currency)
+else:
+    print("invalid currency selection, please try again")    
