@@ -60,7 +60,7 @@ else:
 if len(password_to_check) >= 16:
     score += 1
 else:
-    print("Password should be at least 12 characters long.")
+    print("Password should be at least 16 characters long.")
 
 print(f"\nScore: {score}/5")
 
